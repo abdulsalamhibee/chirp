@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.sub_header h5 {
+  color: #3080f5;
+  font-size: 20px;
+  font-style: italic;
+}
+.sub_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: #faf8f2;
+}
+menu {
+  display: none;
+}
+
+/*----------HERO SECTION----------*/
+#HERO {
+  background-color: #faf8f2;
+}
+.sub_hero1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+.sub_hero1 img {
+  width: 18rem;
+}
+.sub_hero2 {
+  padding: 1rem 1rem;
+}
+.sub_hero2 h1 {
+  font-size: 1.9rem;
+  padding-right: 1rem;
+}
+.sub_hero2 p {
+  font-size: 16px;
+  padding: 0.8rem 1rem 1rem 0;
+  line-height: 1.3rem;
+  color: rgb(98, 96, 96);
+}
+.sign button {
+  outline: none;
+  text-decoration: none;
+  background-color: #1da2f1;
+  border: none;
+  color: #faf8f2;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  width: 18rem;
+  height: 4rem;
+  display: inline-block;
+  border-radius: 5px;
+}
+.sign a {
+  text-decoration: none;
+  display: block;
+  outline: none;
+  text-align: center;
+  font-size: 17px;
+  padding-top: 1rem;
+  color: #5592a9;
+  font-weight: 600;
+}
+#pictures {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+#pictures img {
+  margin-left: -1.3rem;
+}
+.details {
+  color: rgb(98, 96, 96);
+  font-size: 15px;
+}
+.details span {
+  color: #5592a9;
+  font-weight: 600;
+}
+/*--------------ABOUT SECTION-------*/
+.about {
+  margin: 2rem 10px;
+}
+.about h1 {
+  font-size: 1.9rem;
+}
+.features {
+  padding: 1rem 2rem;
+  border: 1px solid #c4c4c4;
+  margin-top: 2rem;
+  border-radius: 6px;
+}
+.features span {
+  font-size: 3rem;
+}
+.features h5 {
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.features p {
+  font-size: 15px;
+  color: #c4c4c4;
+}
+/* --------CUSTOMER SECTION------- */
+.comment h1 {
+  font-size: 1.9rem;
+}
+.comment1 {
+  padding-top: 1rem;
+  background-color: #ffff;
+  margin-top: 3rem;
+  border-radius: 6px;
+}
+.comment {
+  padding: 3rem 1rem;
+  background-color: #d9f5f5;
+}
+#comment-flex {
+  display: flex;
+  justify-content: center;
+}
+.comment-pics {
+  width: 4rem;
+}
+#comment-block {
+  display: block;
+  margin-left: 7px;
+  margin-top: 20px;
+}
+.comment-birds img {
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+.tweet_content {
+  padding: 1rem 1rem;
+}
+.tweet_comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+}
