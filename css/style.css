@@ -45,11 +45,12 @@ menu {
 .sub_hero2 h1 {
   font-size: 1.9rem;
   padding-right: 1rem;
+  line-height: 2.5rem;
 }
 .sub_hero2 p {
   font-size: 16px;
   padding: 0.8rem 1rem 1rem 0;
-  line-height: 1.3rem;
+  line-height: 1.5rem;
   color: rgb(98, 96, 96);
 }
 .sign button {
@@ -115,7 +116,7 @@ menu {
 }
 .features p {
   font-size: 15px;
-  color: #c4c4c4;
+  color: #626060;
 }
 /* --------CUSTOMER SECTION------- */
 .comment h1 {
@@ -155,4 +156,77 @@ menu {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1rem;
+}
+/* -----PRICING SECTION----- */
+.sub_price {
+  text-align: center;
+  margin-top: 3rem;
+}
+.sub_price h1 {
+  font-size: 1.7rem;
+}
+.sub_price p {
+  line-height: 25px;
+  padding-top: 1rem;
+}
+.sub_price2 {
+  background-color: #faf8f2;
+  margin: 3rem 1rem 0 1rem;
+  border: 1px solid #ffad23;
+  border-radius: 10px;
+  padding: 20px;
+}
+#monthly {
+  border-bottom: 1px solid #626060;
+  padding: 1rem 0rem;
+}
+.sub_price2 span {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.sub_price2 p {
+  font-size: 25px;
+}
+.sub_detail {
+  display: flex;
+}
+.sub_detail p {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 1rem;
+  color: #626060;
+}
+button {
+  outline: none;
+  text-decoration: none;
+  background-color: #1da2f1;
+  border: none;
+  color: #faf8f2;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  width: 15.5rem;
+  margin-top: 20px;
+  height: 3rem;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/* ----FOOTER SECTION---- */
+footer {
+  background-color: #d9f5f5;
+  margin-top: 4rem;
+  padding: 1rem 1rem;
+}
+footer h5 {
+  color: #3080f5;
+  font-size: 20px;
+  font-style: italic;
+}
+.sub-footer {
+  display: flex;
+  margin: 1rem 0;
+}
+.sub-footer p {
+  margin-left: 1rem;
 }
