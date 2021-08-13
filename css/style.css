@@ -25,6 +25,9 @@ body {
 menu {
   display: none;
 }
+.sub_header span {
+  display: none;
+}
 
 /*----------HERO SECTION----------*/
 #HERO {
@@ -96,21 +99,27 @@ menu {
   color: #5592a9;
   font-weight: 600;
 }
+.details br {
+  display: none;
+}
 /*--------------ABOUT SECTION-------*/
 .about {
   margin: 2rem 10px;
+}
+.about br {
+  display: none;
 }
 .about h1 {
   font-size: 1.9rem;
 }
 .features {
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   border: 1px solid #c4c4c4;
   margin-top: 2rem;
   border-radius: 6px;
 }
 .features span {
-  font-size: 3rem;
+  font-size: 1.9rem;
 }
 .features h5 {
   font-size: 16px;
@@ -126,6 +135,18 @@ menu {
   font-size: 1.9rem;
 }
 .comment1 {
+  padding-top: 1rem;
+  background-color: #ffff;
+  margin-top: 3rem;
+  border-radius: 6px;
+}
+.comment2 {
+  padding-top: 1rem;
+  background-color: #ffff;
+  margin-top: 3rem;
+  border-radius: 6px;
+}
+.comment3 {
   padding-top: 1rem;
   background-color: #ffff;
   margin-top: 3rem;
@@ -172,6 +193,9 @@ menu {
   line-height: 25px;
   padding-top: 1rem;
 }
+.sub_detail img {
+  margin: 0;
+}
 .sub_price2 {
   background-color: #faf8f2;
   margin: 3rem 1rem 0 1rem;
@@ -193,6 +217,7 @@ menu {
 .sub_detail {
   display: flex;
   text-align: left;
+  align-items: center;
 }
 .sub_detail p {
   font-size: 15px;
@@ -200,6 +225,9 @@ menu {
   padding-left: 10px;
   padding-top: 1rem;
   color: #626060;
+}
+.sub_price br {
+  display: none;
 }
 button {
   outline: none;
@@ -258,6 +286,9 @@ footer h5 {
   .sub_detail p {
     font-size: 18px;
   }
+  .sign button {
+    width: 24rem;
+  }
 }
 @media only screen and (min-width: 768px) {
   .sub_hero1 img {
@@ -267,8 +298,26 @@ footer h5 {
     display: block;
     width: 45rem;
   }
+  .sub_hero2 h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .sub_hero2 p {
+    font-size: 18px;
+    line-height: 2rem;
+  }
+  .sub_sign {
+    display: flex;
+  }
+  .sub_sign a {
+    margin: 25px;
+  }
+  .sub_sign butt menu {
+    display: flex;
+  }
   menu {
     display: flex;
+    margin-left: 8rem;
   }
   menu li {
     list-style: none;
@@ -276,9 +325,158 @@ footer h5 {
   menu li a {
     text-decoration: none;
     margin-right: 2rem;
-    padding-top: 4rem;
   }
   .sub_header img {
     display: none;
+  }
+  .sub_header {
+    padding-top: 3rem;
+  }
+  .details br {
+    display: block;
+  }
+  .features h5 {
+    font-size: 20px;
+  }
+  .features p {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+  .sub_header span {
+    display: flex;
+    outline: none;
+    background-color: #1da2f1;
+    padding: 20px 40px 20px 40px;
+    color: #ffff;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+  .comment_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .comment1 {
+    margin-right: 1rem;
+  }
+  .comment3 {
+    display: none;
+  }
+  .sub_price2 {
+    margin: 3rem 8rem;
+  }
+  .sub_detail p {
+    display: flex;
+    text-align: left;
+    justify-items: left;
+  }
+  .sub_detail img {
+    display: flex;
+  }
+  .button {
+    width: 28rem;
+    height: 4rem;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sub_price br {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  menu {
+    margin-left: 10rem;
+  }
+  .sub_header {
+    padding: 3rem 4rem 1rem 4rem;
+  }
+  .sub_header span {
+    padding: 20px 50px;
+  }
+  #HERO {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 3rem;
+  }
+  .sub_hero1 {
+    grid-column: 2;
+  }
+  .sub_hero2 {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 3rem;
+  }
+  .sub_hero1 .tablet {
+    display: none;
+  }
+  .sub_hero1 img {
+    display: block;
+    width: 25rem;
+    height: 45rem;
+    padding: 0;
+  }
+  .about {
+    padding: 2rem 3.8rem;
+  }
+  .about br {
+    display: block;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .features {
+    margin: 20px 2rem 1rem 0;
+  }
+  .comment_grid {
+    display: flex;
+  }
+  .comment {
+    padding: 1rem 4rem;
+  }
+  .comment2 {
+    margin: 2rem 1rem 3rem 1rem;
+    padding: 15px 15px 4.8rem 15px;
+  }
+  .comment1 {
+    padding: 15px;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+  }
+  .comment3 {
+    display: block;
+    margin-top: 2rem;
+    padding: 15px;
+    margin-bottom: 10rem;
+  }
+  .sub_price2 {
+    margin: 2rem 18rem;
+  }
+  .button {
+    width: 25rem;
+  }
+  footer {
+    padding: 1rem 4rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .sub_hero1 img {
+    display: block;
+    width: 40rem;
+    height: 50rem;
+    padding: 0;
+  }
+  .sub_price2 {
+    margin: 2rem 28rem;
+  }
+  .button {
+    width: 32rem;
+  }
+  .comment2 {
+    margin: 2rem 2rem;
   }
 }
